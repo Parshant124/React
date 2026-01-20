@@ -2,7 +2,7 @@ function Card(props){
 
     return(
         <>
-            <div className="w-80 bg-green-400 rounded-xl shadow-lg p-6 text-center">
+            <div className="w-80 bg-green-200 rounded-xl shadow-lg p-6 text-center">
         
         {/* Profile Image */}
         <img

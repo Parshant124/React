@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')).render(
     <App />
     <Card name="Parshant" role="Frontend Developer" ID="2026DEV01"/>
     <Card name="React-Vite" role="Making websites" ID="2137824"/>
-    <Card2 name="Parshant" role="Frontend Developer" ID="2026DEV01"/>
-    <Card2 name="React-Vite" role="Making websites" ID="2137824"/>
+    <Card2 name="Parshant" role="Backend" ID="2026DEV01"/>
+    <Card2 name="React-Vite" role="Making apps" ID="2137824"/>
   </StrictMode>,
 )
