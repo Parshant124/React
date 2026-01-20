@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 function App() {
-  const [color, setColor] = useState('black ')
+  const [color, setColor] = useState('black')
 
   return (
     <>
@@ -17,7 +17,6 @@ function App() {
             onClick={()=>setColor('yellow')}
             className="outline-none px-4 py-2 rounded text-black shadow-lg"
             style={{backgroundColor: "yellow"}}
-            
             >Yellow</button>
             <button 
             onClick={()=>setColor('green')}
