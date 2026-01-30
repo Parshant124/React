@@ -63,7 +63,7 @@ function Summary03(){
             >Card name="Parshant" role="Frontend Developer" ID="2026DEV01"</h3>
             <h3
             className="px-2"
-            >function Card({"{"}name, role, ID{"}"}), arguement curly braces mein honge yhaan writable nahi
+            >function Card({"{"}name, role, ID{"}"})
             </h3>
 
         </div>
