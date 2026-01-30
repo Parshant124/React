@@ -8,6 +8,10 @@ export default function Summary07(){
                 <h1>Day 7 : React Router</h1>
             </div>
             <div>
+                <h2 className="font-semibold text-center p-2">React Router makes a React app behave like a real multi-page website while staying a single-page app.</h2>
+                <h2>React Router is a library used in React to handle client-side routing. It allows a single-page application to show different components for different URLs without reloading the page.</h2>
+                <h2 className="my-2">It maps URL paths to components, enabling navigation, browser back/forward support, and direct linking.</h2>
+                
                 <h2
                 className="font-semibold "
                 >Layout.jsx</h2>
