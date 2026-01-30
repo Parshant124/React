@@ -1,4 +1,4 @@
-import hook from './Summary06_pic.png'
+import hook from './Pics/Summary06_pic.png'
 
 export default function Summary06(){
     return(

@@ -1,4 +1,4 @@
-import pic from './Summary07_pic.png'
+import pic from './Pics/Summary07_pic.png'
 
 export default function Summary07(){
     return(
