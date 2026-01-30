@@ -45,6 +45,12 @@ export default function Summary07(){
                     <h2>uska optimization loader h, jise path and element ke saath use kr skte hain and vo ek callback function ko call krega</h2>
                     <h2 className="font-semibold">useLoaderData</h2>
                     <h2>this hook is used to store that data into a variable</h2>
+                    <h2 className="font-semibold">Key difference (this is the answer)</h2>
+                    <div className="mx-4">
+                        <h2>With loaders, navigation waits for data.</h2>
+                        <h2>Without loaders, rendering waits for data.</h2>
+                    </div>
+                    <h2>That’s the entire point.</h2>
                 </div>
             </div>
 
