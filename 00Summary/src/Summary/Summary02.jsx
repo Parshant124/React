@@ -71,6 +71,15 @@ function Summary02(){
                         <h2 className="font-bold">When NOT to use it</h2>
                         <h2 className="px-4">If the value must appear on screen → useState, not useRef.</h2>
                     </div>
+
+                    <h2
+                    className="font-semibold py-2"
+                    >useContext</h2>
+                    <div className="mx-6">
+                        <h2>useContext lets a component read shared (global) data from React Context without passing props down manually.</h2>
+                        <h2 className="font-bold">What kind of data should go in Context</h2>
+                        <h2 className="mx-4">Global, low-frequency-changing data</h2>
+                    </div>
                 </div>
             </div>
         </div>
