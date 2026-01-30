@@ -47,8 +47,10 @@ function Summary02(){
                     className="font-semibold py-2"
                     >useCallback</h2>
                     <div className="mx-6">
-                        <h2>It's only purpose is to optimize the code, this projecct works fine without it. Useful for big projects.</h2>
+                        <h2>It's only purpose is to optimize the code, this project works fine without it. Useful for big projects.</h2>
                         <h2>It has two slots, one for the function and other for the dependicies</h2>
+                        <h2>Whenever deps changes it recreates that function(not execute)</h2>
+                        <h2>Function will only be executed when called.</h2>
                         <h2>What useCallback does NOT do</h2>
                         <h2>❌ It does NOT make code faster by default</h2>
                         <h2>❌ It does NOT reduce renders by itself</h2>
