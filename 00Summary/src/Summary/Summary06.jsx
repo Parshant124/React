@@ -3,11 +3,11 @@ import hook from './Pics/Summary06_pic.png'
 export default function Summary06(){
     return(
         <>
-        <div>
-            <div className="text-center text-2xl text-blue-600 font-bold bg-gray-200">
+        <div className="text-white">
+            <div className="text-center text-2xl text-blue-600 font-bold bg-gray-400">
                 <h1>Day 6 : Currency exchanger</h1>
             </div>
-            <div>
+            <div >
                 <h2 className="font-semibold py-4">About Project</h2>
                 <div className="mx-4">
                     <h2>Here we simply convert one currency value into other, variables(FromAmount, From, To) From & To are the currencies type</h2>
