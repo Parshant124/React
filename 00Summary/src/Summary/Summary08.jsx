@@ -23,6 +23,9 @@ export default function Summary08(){
             <h2 className="mx-8">Theme-{">"} press button to change theme of other component</h2>
         </div>
         </div>
+        <div className="p-4 text-blue-500">
+            <a href="https://react.dev/learn/passing-data-deeply-with-context" target="_blank">Context Documentation</a>
+        </div>
         <div>
             <h1 className = "text-2xl font-semibold text-center my-5">About Project</h1>
         </div>
