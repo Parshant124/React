@@ -7,7 +7,8 @@ function App() {
 
   return (
     <>
-      <div className="bg-gray-400 p-4">
+    <div className="bg-gray-700">
+      <div className="bg-gray-600 p-4">
         <h1 
         className="text-3xl text-green-300 text-center font-bold"
         >Summary of Chai aur React</h1>
@@ -71,6 +72,7 @@ function App() {
         {page==6 && <Summary06 />}
         {page==7 && <Summary07 />}
         {page==8 && <Summary08 />}
+      </div>
       </div>
     </>
   )
