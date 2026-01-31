@@ -4,8 +4,8 @@ import pic2 from './Pics/Summary08_pic2.png'
 export default function Summary08(){
     return(
         <>
-        <div className="text-center">
-        <div className = "bg-gray-200">
+        <div className="text-center text-white">
+        <div className = "bg-gray-400">
             <h1 className="font-bold text-2xl text-violet-500 text-center">
                 Day 8: Context API
             </h1>
@@ -23,17 +23,17 @@ export default function Summary08(){
             <h2 className="mx-8">Theme-{">"} press button to change theme of other component</h2>
         </div>
         </div>
-        <div className="p-4 text-blue-500">
+        <div className="p-4 text-green-300 underline">
             <a href="https://react.dev/learn/passing-data-deeply-with-context" target="_blank">Context Documentation</a>
         </div>
-        <div>
+        <div className="text-white">
             <h1 className = "text-2xl font-semibold text-center my-5">About Project</h1>
         </div>
-        <div>
+        <div className="text-white">
             <h2>Hooks used: useContext, useState, useEffect</h2>
             <h2>Tailwindcss, </h2>
         </div>
-        <div>
+        <div className="text-white">
             <h1 className="font-semibold m-4">Project 1</h1>
             <div className="mx-8">
                 <h2>Two components made: Login and Profile</h2>
@@ -43,7 +43,7 @@ export default function Summary08(){
                 <h2>now this user value is accessed in Profile via useContext</h2>
             </div>
         </div>
-        <div>
+        <div className="text-white">
             <h1 className="font-semibold m-4">Project 2</h1>
             <div className="mx-8">
                 <h2>Two components: Card and ThemeBtn</h2>
