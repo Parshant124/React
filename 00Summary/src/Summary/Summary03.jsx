@@ -6,10 +6,10 @@ function Summary03(){
         <div>
         <div>
             <h1
-            className="font-bold text-center text-2xl text-red-500 bg-gray-200"
+            className="font-bold text-center text-2xl text-red-500 bg-gray-400"
             >Day 3 : Tailwind CSS</h1>
         </div>
-        <div>
+        <div className="text-white">
             <h2
             className="font-bold"
             >Use of Tailwind</h2>
@@ -42,7 +42,7 @@ function Summary03(){
                 </h3>
             </div>
         </div>
-        <div>
+        <div className="text-white">
             <h1
             className="text-center font-bold text-2xl p-4"
             >About Project</h1>
