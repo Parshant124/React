@@ -4,10 +4,10 @@ function Summary01(){
     return(
         <>
         <h1
-        className="text-center font-bold text-2xl text-green-400 bg-gray-200"
+        className="text-center font-bold text-2xl text-green-400 bg-gray-400"
         >Summary of Day 1 of learning react</h1>
         <ul
-        className=""
+        className="text-white"
         >
             <h2
             className="font-bold my-2"
@@ -23,10 +23,10 @@ function Summary01(){
         </ul>
         <ul>
             <h2 
-            className="my-2 font-bold"
+            className="my-2 font-bold text-white"
             >Flow of react</h2>
             <div
-            className='px-4'>
+            className='px-4 text-white'>
                 <li>React is none other than html,css,js bundle together</li>
                 <li>In src, main.jsx exist which is the js file attached to the html</li>
                 <li>In src, we can create custom components followed by the upwritten rules</li>
@@ -34,10 +34,10 @@ function Summary01(){
         </ul>
         <ul>
             <h2
-            className="my-2 font-bold"
+            className="my-2 font-bold text-white"
             >Some commands</h2>
             <div
-            className="px-4">
+            className="px-4 text-white">
                 <li>npm create vite - to create the project folder</li>
                 <li>npm run dev - to execute the project</li>
                 <li> q+enter - to end project</li>
