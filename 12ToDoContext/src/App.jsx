@@ -51,7 +51,7 @@ function App() {
             <div key={todo.id}
             className='w-full'
             >
-              <TodoItem todo={todo} />
+            <TodoItem todo={todo} />
             </div>
           ))}
         </div>
