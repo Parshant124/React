@@ -3,8 +3,8 @@ import pic from './Pics/Summary07_pic.png'
 export default function Summary07(){
     return(
         <>
-        <div>
-            <div className="text-center text-yellow-500 text-2xl font-bold bg-gray-200">
+        <div className="text-white">
+            <div className="text-center text-yellow-500 text-2xl font-bold bg-gray-400">
                 <h1>Day 7 : React Router</h1>
             </div>
             <div>
