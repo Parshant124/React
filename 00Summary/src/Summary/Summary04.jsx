@@ -5,11 +5,11 @@ export default function Summary04(){
         <>
         <div>
             <div
-            className="text-center text-2xl font-bold text-blue-600 bg-gray-200"
+            className="text-center text-2xl font-bold text-blue-600 bg-gray-400"
             >
                 <h1>Day 4 : BG changer</h1>
             </div>
-            <div>
+            <div className="text-white">
                 <h1
                 className="font-semibold"
                 >About Project: On clicking different color buttons bg color changes</h1>
