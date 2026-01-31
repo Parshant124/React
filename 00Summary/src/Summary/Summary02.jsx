@@ -5,10 +5,10 @@ function Summary02(){
         <>
         <div>
             <div
-            className="text-center bg-gray-200 text-2xl font-bold text-yellow-500">
+            className="text-center bg-gray-400 text-2xl font-bold text-yellow-500">
                 <h1>Day 2 : HOOKS</h1>
             </div>
-            <div>
+            <div className="text-white">
                 <h2>
                     There are a lot of hooks present and used in React, some are
                 </h2>
